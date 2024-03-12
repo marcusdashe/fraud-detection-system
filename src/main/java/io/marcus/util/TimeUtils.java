@@ -18,7 +18,6 @@ public class TimeUtils {
         return (timestamp1 - timestamp2) <= windowInSeconds;
     }
 
-
     /**
      * Gets the current timestamp in seconds.
      *
