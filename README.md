@@ -10,6 +10,9 @@
 1. **Compile and Run:**
     - Compile the Java files using `javac Main.java` 
     - Run the prototype with `java Main`
+** Build and Run **
+- Build Jar file of the project using `mvn package`
+- Run the prototype jar file with `java -jar rtfds-1.0-SNAPSHOT.jar test_dataset.csv` 
 
 2. **Dataset Options:**
     - The program generates a test dataset by default. If you want to read from a CSV file, uncomment the relevant code in `Main.java` and provide the file path as a command-line argument.
